@@ -6,7 +6,8 @@ file_test = File('/home/paulo/Documents/QUARTO_PERIODO/seguranca_dados/backup_pr
 managed_files = []
 managed_files.append(file_test)
 
-backup_manager = BackupManager('/home/paulo/Documents/QUARTO_PERIODO/seguranca_dados/backup_project/backup', managed_files)
+backup_path = '/home/paulo/Documents/QUARTO_PERIODO/seguranca_dados/backup_project/backup'
+backup_manager = BackupManager(backup_path, managed_files)
 
 
 while True:
